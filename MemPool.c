@@ -27,7 +27,6 @@
 static unsigned char  gs_aaucMemPool[MP_BLK_NR][MP_BLK_SIZE] __align(32);
 static unsigned char *gsc_pucBeginAddr = &gs_aaucMemPool;
 static unsigned char *gsc_pucEndAddr   = &gs_aaucMemPool[MP_BLK_NR][0];
-#define SIZE_COE	  8
 static unsigned short gs_ausBlkAllocSize[MP_BLK_NR];
 static unsigned int   gs_auiBitMap[MP_BLK_NR];
 
