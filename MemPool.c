@@ -49,7 +49,7 @@ unsigned short MpSizeAlign(uint32 uiSize)
 	return usSize;
 }
 
-#define BBM(s) (s == MP_BLK_SIZE) ? 0x01 : 
+#define BBM(s) (s == MP_BLK_SIZE) ? 0x01 : 0
 
 void * MpAlloc(unsigned int uiSize)
 {
